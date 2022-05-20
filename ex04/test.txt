@@ -1,4 +1,10 @@
-Hola qué hay
-como esas
-sakjfk
-no me contratan ni para atrás
+A diferencia de cin y cout, que son objetos predefinidos de acceso global, listos para su uso, los objetos que representan flujos de datos a/desde ficheros deben ser definidos por el programador.
+
+La apertura del fichero consiste en definir un objeto de la clase deseada (ifstream, ofstream ó fstream).
+
+Para escribir o leer, se usan los operadores de inserción << y extracción >> como si del teclado o consola se tratase.
+
+El fichero se cierra implícitamente cuando el objeto sale del ámbito en el que se ha definido o explícitamente llamando a la función miembro close().
+
+En lo que sigue vamos a ver un pequeño subconjunto de las posibilidades que ofrece C++, y solo para trabajar con ficheros tipo texto.
+
